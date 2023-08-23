@@ -1,0 +1,49 @@
+@import '../mixins/homemix';
+@import '../variables/homevariable';
+#service{
+    padding-top: 30px;
+    .main_service{
+        display: flex;
+        .service_title{
+            width: 50%;
+            padding-right: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            justify-content: center;
+            h2{
+                @include text($ff: $primary_fonts, $fw: 700, $fs: 64px, $clr: $primary_color);
+            }
+            p{
+                @include text($ff: $primary_fonts, $fw: 500, $fs: 16px, $clr: $secondery_color);
+                width: 69%;
+            }
+        }
+        .service_item2{
+            position: relative;
+            width: 50%;
+            img{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                z-index: -1;
+            }
+            h3{
+                @include text($ff: $primary_fonts, $fw: 700, $fs: 22px, $clr: $third_color);
+                z-index: 1;
+                padding: 100px 100px 0 100px;
+            }
+            .service_btn{
+                padding-bottom: 9%;
+                a{
+                    @include text($ff: $primary_fonts, $fw: 600, $fs: 16px, $clr: $third_color);
+                    margin: 20px 0 0 100px;
+                    padding: 15px 30px;
+                    background-color: $brand_color;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}

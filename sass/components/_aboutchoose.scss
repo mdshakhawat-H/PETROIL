@@ -1,0 +1,35 @@
+@import '../mixins/homemix';
+@import '../variables/homevariable';
+#choose{
+    padding: 100px 0 0;
+    .choose_head{
+        margin-left: 50px;
+        h2{
+            @include text($ff: $primary_fonts, $fw: 700, $fs: 36px, $clr: $primary_color);
+            width: 73%;
+        }
+        p{
+            @include text($ff: $primary_fonts, $fw: 500, $fs: 16px, $clr: $secondery_color);
+            padding: 30px 0;
+            line-height: 25px;
+        }
+        ul{
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            li{
+                i{
+                    color: $third_color;
+                    padding: 6px 7px;
+                    background-color: $brand_color;
+                    border-radius: 50%;
+                }
+                span{
+                    @include text($ff: $primary_fonts, $fw: 600, $fs: 16px, $clr: $primary_color);
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+@import '../mixins/homemix';
+@import '../variables/homevariable';
+#supplier{
+    padding: 78px 0 100px;
+    .supplier_head{
+        h2{
+            @include text($ff: $primary_fonts, $fw: 700, $fs: 48px, $clr: $primary_color);
+            line-height: 60px;
+        }
+    }
+    .supplier_descrip{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        p{
+            @include text($ff: $primary_fonts, $fw: 500, $fs: 16px, $clr: $secondery_color);
+            width: 88%;
+        }
+    }
+}

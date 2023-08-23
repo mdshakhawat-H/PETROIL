@@ -1,0 +1,107 @@
+@import '../mixins/homemix';
+@import '../variables/homevariable';
+#footer{
+    padding: 150px 0 0;
+    background-color: $primary_color;
+    .foot_contact{
+        margin-top: 33px;
+        ul{
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            li{
+                a{
+                    @include text($ff: $primary_fonts, $fw: 400, $fs: 14px, $clr: $third_color);
+                    display: flex;
+                    gap: 10px;
+                }
+            }
+        }
+    }
+    .foot_icon{
+        margin-top: 34px;
+        ul{
+            display: flex;
+            gap: 12px;
+            padding: 0;
+            li{
+                a{
+                    color: $third_color;
+                    padding: 10px 15px;
+                    background-color: $brand_color;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+    .foot_head{
+        h2{
+            @include text($ff: $primary_fonts, $fw: 700, $fs: 16px, $clr: $third_color);
+            text-transform: capitalize;
+            
+        }
+    }
+    .foot_list{
+        ul{
+            padding: 0;
+            margin-top: 21px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            li{
+                a{
+                    @include text($ff: $primary_fonts, $fw: 400, $fs: 14px, $clr: $third_color);
+                    text-transform: capitalize;
+                }
+            }
+        }
+    }
+    .foot_certificates{
+        display: flex;
+        gap: 5px;
+        .crt1{
+            padding: 10px;
+            background-color: $third_color;
+            border-radius: 4px;
+            h3{
+                @include text($ff: $primary_fonts, $fw: 700, $fs: 24px, $clr: #008AD8);
+                text-transform: uppercase;
+            }
+            p{
+                @include text($ff: $primary_fonts, $fw: 500, $fs: 8px, $clr: #008AD8);
+
+            }
+        }
+        .crt2{
+            padding: 10px;
+            background-color: $third_color;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            h3{
+                @include text($ff: $primary_fonts, $fw: 700, $fs: 24px, $clr: none);
+                margin: 0;
+                span{
+                    color: #980077;
+                }
+                .cetg{
+                    color: green;
+                }
+            }
+        }
+    }
+    .copyright{
+        margin-top: 200px;
+        padding: 10px 0;
+        background-color: #282828;
+        .cprt_txt{
+            p{
+                color: #6C6C6C;
+                a{
+                    color: #6C6C6C;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@import '../mixins/homemix';
+@import '../variables/homevariable';
+#contact{
+    background-color: $brand_color;
+    padding: 25px 0;
+    border-bottom: 2px solid #ffb800;
+    .main_contact{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .contact_head{
+            h2{
+                @include text($ff: $primary_fonts, $fw: 700, $fs: 36px, $clr: $third_color);
+            }
+        }
+        .contact_btn{
+            a{
+                @include text($ff: $primary_fonts, $fw: 600, $fs: 16px, $clr: $third_color);
+                text-transform: uppercase;
+                padding: 15px 30px;
+                border: 2px solid $third_color;
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+@mixin text($ff: $primary_fonts, $fw: 700, $fs: 36px, $clr: $third_color){
+     font-family: $ff;
+     font-weight: $fw;
+     font-size: $fs;
+     color: $clr;
+}

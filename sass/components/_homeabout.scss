@@ -1,0 +1,32 @@
+@import '../mixins/homemix';
+@import '../variables/homevariable';
+#about{
+    background-color: #F0F0F0;
+    padding: 136px 0;
+    .main_about{
+        display: flex;
+        .about_title{
+            display: flex;
+            align-items: center;
+            background-color: $brand_color;
+            h2{
+                @include text;
+                width: 60%;
+                margin: 0 auto;
+            }
+        }
+        .about_img{
+            position: relative;
+            a{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50% , -50%);
+                @include text($ff: $primary_fonts, $fw: 600, $fs: 16px, $clr: $brand_color);
+                text-transform: uppercase;
+                padding: 15px 30px;
+                background-color: $third_color;
+            }
+        }
+    }
+}

@@ -1,0 +1,673 @@
+/* ================= HOME PAGE RESPONSIVE START ================ */
+@media (max-width: 575.98px) { 
+    header .main_head {
+        padding: 4px 0;
+    }
+    header {
+        border-bottom: 1.5px solid #FFB800;
+    }
+    header .main_head .head_contact {
+        gap: 15px;
+        align-items: center;
+    }
+    header .main_head .head_contact p {
+        font-size: 6px;
+    }
+    header .main_head .head_icon ul li a {
+        font-size: 9px;
+    }
+    header .main_head .head_icon ul {
+        gap: 8px;
+    }
+    .main_nav .nav_logo img {
+        width: 35px;
+    }
+    nav {
+        padding: 5px 0;
+    }
+    nav .nav_list ul {
+        gap: 15px;
+        margin-top: -5px;
+    }
+    nav .nav_list ul li a {
+        font-size: 6px;
+    }
+    nav .nav_list {
+        gap: 35px;
+    }
+    nav .nav_list .nav_btn {
+        font-size: 6px;
+        padding: 3px 5px;
+        border: 1px solid #FFFFFF;
+    }
+    #banner .banner_head h1 {
+        font-size: 19px;
+        width: 85%;
+    }
+    #banner .banner_head .banner_btn a {
+        font-size: 6px;
+        padding: 9px 25px;
+    }
+    #banner .banner_slider .bn_sld_item {
+        padding: 80px 0px;
+        
+    }
+    #banner .banner_slider .slick_left {
+        top: 33%;
+        left: 0%;
+        font-size: 10px;
+    }
+    #banner .banner_slider .slick_right {
+        top: 33%;
+        right: 0%;
+        font-size: 10px;
+    }
+    #supplier {
+        padding: 20px 0 30px;
+    }
+    #supplier .supplier_head h2 {
+        font-size: 20px;
+        line-height: 25px;
+        width: 80%;
+    }
+    #supplier .supplier_descrip p {
+        font-size: 9px;
+        width: 100%;
+    }
+    #service .main_service {
+	display: block;
+}
+#service .main_service .service_title {
+	width: 100%;
+	padding-right: 0px;
+    padding-left: 10px;
+	display: block;
+}
+#service .main_service .service_title h2 {
+	font-size: 20px;
+}
+#service .main_service .service_title p {
+	font-size: 9px;
+}
+#service .main_service .service_item2 {
+    margin-top: 15px;
+	width: 100%;
+}
+#service .main_service .service_item2 h3 {
+	font-size: 15px;
+	padding: 40px 40px 0 40px;
+}
+#service .main_service .service_item2 .service_btn a {
+	font-size: 9px;
+	margin: 5px 0 0 43px;
+	padding: 8px 30px;
+}
+#about {
+	padding: 40px 0;
+}
+#about .main_about {
+	display: block;
+}
+#about .main_about .about_title h2 {
+    padding: 10px 0;
+	font-size: 15px;
+	width: 100%;
+    text-align: center;
+}
+#about .main_about .about_img img {
+	width: 100%;
+}
+#about .main_about .about_img a {
+	font-size: 9px;
+	padding: 9px 15px;
+}
+#logo {
+	padding: 30px 0;
+}
+#logo .logos {
+    gap: 10px;
+}
+#logo .logos img{
+    width: 70px;
+}
+#blog {
+	padding: 30px 0 40px;
+}
+#blog .main_blog {
+	display: block;
+}
+#blog .main_blog .blog_item {
+	width: 100%;
+    margin-bottom: 10px;
+}
+#blog .main_blog .blog_item .blog_txt h2 {
+	font-size: 15px;
+}
+#blog .main_blog .blog_item .blog_txt a {
+	font-size: 9px;
+	margin-top: 51%;
+}
+#blog .more_blog {
+	margin-top: 0px;
+}
+#blog .more_blog a {
+	font-size: 9px;
+}
+#maps iframe{
+    height: 150px;
+}
+#contact {
+	padding: 9px 0;
+}
+#contact .main_contact .contact_head h2 {
+	font-size: 9px;
+}
+#contact .main_contact .contact_btn a {
+	font-size: 6px;
+	padding: 5px 5px;
+	border: 1px solid #FFFFFF;
+}
+#footer {
+	padding: 40px 0 0;
+}
+.foot_logo img{
+    width: 80px;
+}
+#footer .foot_contact ul {
+    gap: 8px;
+}
+#footer .foot_contact ul li a {
+	font-size: 5px;
+}
+#footer .foot_head h2 {
+	font-size: 6px;
+}
+#footer .foot_list ul {
+	margin-top: 0px;
+	gap: 0px;
+}
+#footer .foot_list ul li a {
+	font-size: 5px;
+}
+#footer .foot_certificates .crt1 {
+	padding: 5px;
+}
+#footer .foot_certificates {
+	display: block;
+}
+#footer .foot_certificates .crt1 h3 {
+	font-size: 15px;
+    margin: 0;
+}
+#footer .foot_certificates .crt1 p {
+	font-size: 5px;
+}
+#footer .foot_certificates .crt2 {
+	padding: 5px;
+    margin-top: 5px;
+}
+#footer .foot_certificates .crt2 h3 {
+	font-size: 12px;
+}
+#footer .foot_icon ul li a {
+	padding: 2px 6px;
+}
+#footer .foot_icon {
+	margin-top: 20px;
+}
+#footer .copyright {
+	margin-top: 40px;
+}
+.cprt_txt p{
+    font-size: 9px;
+}
+ }
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    header .main_head .head_contact p {
+        font-size: 10px;
+    }
+    .nav_logo img{
+        width: 90px;
+    }
+    nav .nav_list ul {
+        gap: 20px;
+    }
+    nav .nav_list .nav_btn {
+        font-size: 12px;
+        padding: 9px 15px;
+        border: 1.5px solid #FFFFFF;
+    }
+    nav .nav_list {
+        gap: 25px;
+    }
+    nav .nav_list ul li a {
+        font-size: 12px;
+    }
+    nav {
+        padding: 12px 0;
+    }
+    #banner .banner_head h1 {
+        font-size: 28px;
+    }
+    #banner .banner_head .banner_btn a {
+        font-size: 13px;
+        padding: 10px 20px;
+    }
+    #banner .banner_slider .bn_sld_item {
+        padding: 170px 0px;
+    }
+    #supplier {
+        padding: 104px 0 70px;
+    }
+    #supplier .supplier_head h2 {
+        font-size: 24px;
+        line-height: 30px;
+        width: 60%;
+    }
+    #supplier .supplier_descrip p {
+        font-size: 13px;
+    }
+    #service {
+        padding-top: 50px;
+    }
+    #service .main_service {
+        display: block;
+    }
+    #service .main_service .service_title {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 30px;
+        display: block;
+    }
+    #service .main_service .service_title h2 {
+        font-size: 25px;
+    }
+    #service .main_service .service_title p {
+        font-size: 13px;
+        width: 80%;
+    }
+    #service .main_service .service_item2 {
+        margin-top: 20px;
+        width: 100%;
+    }
+    #about {
+        padding: 70px 0;
+    }
+    #about .main_about {
+        display: block;
+    }
+    #about .main_about .about_title h2 {
+        padding: 15px 0;
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+    }
+    .about_img img{
+        width: 100%;
+    }
+    #about .main_about .about_img a {
+        font-size: 13px;
+    }
+    #logo {
+        padding: 70px 0;
+    }
+    #logo .logos {
+        justify-content: space-between;
+    }
+    #logo .logos img {
+        width: 100px;
+    }
+    #blog {
+        padding: 70px 0 75px;
+    }
+    #blog .main_blog {
+        display: block;
+    }
+    #blog .main_blog .blog_item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #blog .main_blog .blog_item .blog_txt h2 {
+        font-size: 20px;
+    }
+    #blog .main_blog .blog_item .blog_txt {
+        padding: 175px 0 0 46px;
+    }
+    #blog .more_blog a {
+        font-size: 13px;
+    }
+    #blog .more_blog {
+        margin-top: 0px;
+    }
+    #maps iframe{
+        height: 250px;
+    }
+    #contact .main_contact .contact_head h2 {
+        font-size: 18px;
+    }
+    #contact .main_contact .contact_btn a {
+        font-size: 13px;
+        padding: 5px 7px;
+        border: 1.5px solid #FFFFFF;
+    }
+    #contact {
+        padding: 15px 0;
+    }
+    #footer {
+        padding: 81px 0 0;
+    }
+    .foot_logo img{
+        width: 105px;
+    }
+    #footer .foot_contact ul li a {
+        font-size: 10px;
+    }
+    #footer .foot_head h2 {
+        font-size: 12px;
+    }
+    #footer .foot_list ul li a {
+        font-size: 11px;
+    }
+    #footer .foot_list ul {
+        gap: 5px;
+    }
+    #footer .foot_certificates {
+        display: block;
+    }
+    #footer .foot_certificates .crt2 h3 {
+        font-size: 21px;
+    }
+    #footer .foot_certificates .crt2 {
+        margin-top: 15px;
+    }
+    #footer .foot_icon ul li a {
+        padding: 7px 11px;
+    }
+    #footer .copyright {
+        margin-top: 90px;
+    }
+ }
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    nav {
+        padding: 20px 0;
+    }
+    .nav_logo img{
+        width: 130px;
+        margin-top: 10px;
+    }
+    nav .nav_list .nav_btn {
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+    nav .nav_list ul {
+        gap: 24px;
+    }
+    #banner .banner_head h1 {
+        font-size: 35px;
+        width: 64%;
+    }
+    #banner .banner_head .banner_btn a {
+        font-size: 15px;
+        padding: 11px 30px;
+    }
+    #banner .banner_slider .bn_sld_item {
+        padding: 200px 0px;
+    }
+    #supplier {
+        padding: 115px 0 80px;
+    }
+    #supplier .supplier_head h2 {
+        font-size: 40px;
+        line-height: 55px;
+        width: 62%;
+    }
+    #supplier .supplier_descrip p {
+        font-size: 15px;
+    }
+    #service {
+        padding-top: 60px;
+    }
+    #service .main_service .service_title h2 {
+        font-size: 40px;
+    }
+    #service .main_service .service_title {
+        width: 50%;
+        padding-right: 0px;
+        padding-left: 30px;
+        display: block;
+    }
+    #service .main_service .service_title p {
+        font-size: 15px;
+        width: 90%;
+    }
+    #service .main_service .service_item2 h3 {
+        padding: 50px 50px 0 50px;
+    }
+    #service .main_service .service_item2 .service_btn a {
+        font-size: 15px;
+        margin: 0px 0px 0 53px;
+        padding: 2px 13px;
+    }
+    #about {
+        padding: 95px 0;
+    }
+    .about_img img{
+        width: 100%;
+    }
+    #about .main_about .about_title h2 {
+        font-size: 25px;
+    }
+    #about .main_about .about_img a {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+    #logo {
+        padding: 80px 0;
+    }
+    #logo .logos {
+        justify-content: space-between;
+    }
+    #logo .logos img{
+        width: 150px;
+    }
+    #blog {
+        padding: 90px 0 100px;
+    }
+    #blog .main_blog {
+        gap: 30px;
+    }
+    #blog .main_blog .blog_item .blog_txt {
+        padding: 40px 0 0 20px;
+    }
+    #blog .main_blog .blog_item .blog_txt h2 {
+        font-size: 15px;
+    }
+    #blog .more_blog a {
+        font-size: 15px;
+    }
+    #maps iframe{
+        height: 300px;
+    }
+    #contact .main_contact .contact_head h2 {
+        font-size: 30px;
+        width: 70%;
+    }
+    #footer .foot_certificates .crt1 h3 {
+        font-size: 20px;
+    }
+    #footer .foot_certificates .crt2 h3 {
+        font-size: 16px;
+    }
+    #footer .copyright {
+        margin-top: 140px;
+    }
+ }
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    #banner .banner_head h1 {
+        width: 85%;
+    }
+    #service .main_service .service_title h2 {
+        font-size: 50px;
+    }
+    #service .main_service .service_item2 h3 {
+        padding: 33px 97px 0 100px;
+    }
+    #logo {
+        padding: 85px 0;
+    }
+    .about_img img{
+        width: 100%;
+    }
+    .logos {
+        justify-content: space-between;
+    }
+    .logos img{
+        width: 170px;
+    }
+    #blog {
+        padding: 110px 0 100px;
+    }
+    #blog .main_blog .blog_item .blog_txt {
+        padding: 55px 0 0 25px;
+    }
+    #blog .main_blog .blog_item .blog_txt h2 {
+        font-size: 20px;
+        width: 95%;
+    }
+    .maps iframe{
+        height: 400px;
+    }
+    #contact .main_contact .contact_head h2 {
+        font-size: 30px;
+    }
+    #footer {
+        padding: 100px 0 0;
+    }
+ }
+@media (min-width: 1200px){  }
+/* ================= HOME PAGE RESPONSIVE ENDED ================ */
+/* ================= ABOUT PAGE RESPONSIVE START ================ */
+@media (max-width: 575.98px) { 
+    #choose {
+        padding: 60px 0 0;
+    }
+    #choose .choose_head {
+        margin: 20px 0 0 0;
+    }
+    #choose .choose_head h2 {
+        font-size: 20px;
+        width: 48%;
+    }
+    #choose .choose_head p {
+        font-size: 13px;
+        padding: 10px 0;
+        line-height: 18px;
+    }
+    #choose .choose_head ul {
+        gap: 0px;
+    }
+    #choose .choose_head ul li i {
+        padding: 4px 5px;
+        font-size: 9px;
+    }
+    #choose .choose_head ul li span {
+        font-size: 13px;
+    }
+    #core {
+        padding: 50px 0 0;
+    }
+    #core .core_head h2 {
+        font-size: 20px;
+    }
+    #core .core_head p {
+        font-size: 13px;
+    }
+    #core .main_core {
+        display: block;
+        padding-top: 56px;
+    }
+    #core .main_core .core_item {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    #core .main_core .core_item .core_txt p {
+        font-size: 13px;
+        width: 100%;
+    }
+    #core .main_core .core_item .core_icon i {
+        font-size: 20px;
+        padding: 16px 12px;
+        transform: translate(-50%, -124%);
+    }
+    #core .main_core .core_item .core_txt .core_link a {
+        font-size: 13px;
+    }
+ }
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    #choose {
+        padding: 75px 0 0;
+    }
+    #choose .choose_head {
+        margin: 65px 0 0;
+    }
+    #choose .choose_head h2 {
+        font-size: 27px;
+        width: 46%;
+    }
+    #choose .choose_head p {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+    #choose .choose_head ul li span {
+        font-size: 14px;
+    }
+    #choose .choose_head ul li i {
+        padding: 4px 5px;
+        font-size: 10px;
+    }
+    #choose .choose_head ul {
+        gap: 5px;
+    }
+    #core {
+        padding: 70px 0 0;
+    }
+    #core .core_head h2 {
+        font-size: 31px;
+    }
+    #core .main_core {
+        display: block;
+        padding-top: 100px;
+    }
+    #core .main_core .core_item {
+        width: 100%;
+        margin-bottom: 70px;
+        text-align: center;
+    }
+    #core .main_core .core_item .core_txt p {
+        font-size: 14px;
+        width: 100%;
+    }
+    #core .main_core .core_item .core_txt .core_link a {
+        font-size: 14px;
+    }
+ }
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    #choose .choose_head {
+        margin: 50px 0 0;
+    }
+    #core .main_core .core_item {
+        text-align: center;
+        padding: 15px;
+    }
+    #core .main_core .core_item .core_txt p {
+        font-size: 12px;
+    }
+    #core .main_core .core_item .core_icon i {
+        transform: translate(-50%, -75%);
+    }
+    #core .main_core .core_item .core_txt h3 {
+        padding-top: 30px;
+    }
+ }
+/* ================= ABOUT PAGE RESPONSIVE ENDED ================ */

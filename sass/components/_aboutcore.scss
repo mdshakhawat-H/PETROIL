@@ -1,0 +1,57 @@
+@import '../mixins/homemix';
+@import '../variables/homevariable';
+#core{
+    padding: 100px 0;
+    .core_head{
+        text-align: center;
+        h2{
+            @include text($ff: $primary_fonts, $fw: 700, $fs: 36px, $clr: $primary_fonts);
+        }
+        p{
+            @include text($ff: $primary_fonts, $fw: 600, $fs: 16px, $clr: $secondery_color);
+        }
+    }
+    .main_core{
+        display: flex;
+        gap: 50px;
+        padding-top: 100px;
+        .core_item{
+            width: 33.333%;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            padding: 40px;
+            border-bottom: 5px solid #FFB800;
+            .core_icon{
+                position: relative;
+                i{
+                    font-size: 30px;
+                    padding: 20px 15px;
+                    color: $third_color;
+                    background-color: $brand_color;
+                    border-radius: 50%;
+                   position: absolute;
+                   top: -50;
+                   left: 50%;
+                   transform: translate(-50%,-100%);
+                }
+            }
+            .core_txt{
+                h3{
+                    @include text($ff: $primary_fonts, $fw: 700, $fs: 20px, $clr: $primary_color);
+                    padding-top: 20px;
+                }
+                p{
+                    @include text($ff: $primary_fonts, $fw: 600, $fs: 16px, $clr: $secondery_color);
+                    width: 90%;
+                }
+                .core_link{
+                          text-align: right;
+                          padding-top: 50px;
+                    a{
+                        @include text($ff: $primary_fonts, $fw: 600, $fs: 16px, $clr: $brand_color);
+                        text-transform: capitalize;
+                    }
+                }
+            }
+        }
+    }
+}
