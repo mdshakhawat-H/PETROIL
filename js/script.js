@@ -2,7 +2,7 @@
 $('.banner_slider').slick({
     prevArrow: '<i class="fa-solid fa-arrow-left slick_left"></i>',
     nextArrow: '<i class="fa-solid fa-arrow-right slick_right"></i>',
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 2000,
 });
 // ========= BANNER SLIDER END =======
